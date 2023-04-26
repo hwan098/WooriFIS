@@ -12,7 +12,7 @@ public class Step05CustomerTest {
 		
 		return "가입 성공";
 	}
-	//사용자 정의 타입으로 pameter 구성해 보기
+	//사용자 정의 타입으로 parameter 구성해 보기
 	//객체 타입 사용 가능
 	public String insertCustomer(Customer cust){
 		//DB에 실제 저장 성공으로 가정
