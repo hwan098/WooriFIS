@@ -5,10 +5,7 @@ import model.domain.Food;
 import view.EndView;
 
 public class Controller {
-	/*
-	 * int 값 받아서 1이면 저장, 2면 검색
-	 * 검색인 경우 EndView에게 데이터를 제공하면서 출력 지시
-	 */
+
 	 public void reqRes(int reqNo) {
 		 // == : 동등비교 연산자
 		 if(reqNo == 1) { //reqNo가 1인지 비교, 같으면 true
